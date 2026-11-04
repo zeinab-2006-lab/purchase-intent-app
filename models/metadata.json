@@ -1,0 +1,108 @@
+{
+  "model_name": "Gradient Boosting",
+  "threshold_f1": 0.773473315112494,
+  "default_t_buy": 0.8818290359313028,
+  "default_t_chat": 0.2706018815650503,
+  "months": [
+    "Feb",
+    "Mar",
+    "May",
+    "June",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec"
+  ],
+  "visitor_types": [
+    "New_Visitor",
+    "Other",
+    "Returning_Visitor"
+  ],
+  "categorical_options": {
+    "OperatingSystems": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "Browser": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "Region": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "TrafficType": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20"
+    ]
+  },
+  "categorical_defaults": {
+    "OperatingSystems": "2",
+    "Browser": "2",
+    "Region": "1",
+    "TrafficType": "2"
+  },
+  "test_metrics": {
+    "roc_auc": 0.9387,
+    "pr_auc": 0.7567,
+    "accuracy": 0.9025,
+    "precision": 0.6809,
+    "recall": 0.7094,
+    "f1": 0.6949
+  },
+  "baseline_test_metrics": {
+    "roc_auc": 0.5,
+    "pr_auc": 0.1565,
+    "accuracy": 0.8435,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0
+  },
+  "n_train": 9764,
+  "n_test": 2441,
+  "purchase_rate": 0.1563
+}
