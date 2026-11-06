@@ -1,41 +1,69 @@
-🚀 **My Machine Learning Project: Will This Visitor Buy?**
+🚀 **Excited to Share My Machine Learning Project: Will This Visitor Buy?**
 
-Most online shopping visitors leave without making a purchase. But what if we could predict their purchase intention and help businesses make smarter decisions?
+Have you ever wondered why visitors browse online stores, add products to their shopping journey, and then leave without making a purchase?
 
-I'm excited to share my individual Machine Learning final project, **"Will This Visitor Buy? – Purchase Intent Prediction,"** developed as part of my Machine Learning course at NextGen Institute.
+What if we could predict whether a visitor is likely to buy something before they leave?
 
-The project uses the Online Shoppers Purchasing Intention dataset to predict whether a website visitor is likely to make a purchase based on their browsing session behavior.
+This is the idea behind my individual Machine Learning project: **Will This Visitor Buy? – Online Shopping Purchase Intention Prediction.**
 
-**What I worked on:**
-- Explored and analyzed 12,330 shopping sessions.
-- Built a preprocessing and feature engineering pipeline.
-- Trained and tuned 3 Machine Learning models.
-- Evaluated model performance using ROC-AUC, PR-AUC, Precision, Recall, and F1-score.
-- Developed an interactive web application using Streamlit.
+🎯 **Project Idea**
 
-**Model Results:**
+The goal of this project is to predict whether an online shopping visitor will complete a purchase based on their browsing session behavior.
 
-🏆 Best Model: Gradient Boosting
+Using the Online Shoppers Purchasing Intention dataset, the model analyzes different features such as:
+- Number of pages visited.
+- Time spent browsing.
+- Bounce Rate and Exit Rate.
+- Page Values.
+- Visitor type and browsing patterns.
 
-- ROC-AUC: 0.939
-- PR-AUC: 0.757
-- Precision: 0.681
-- Recall: 0.709
-- F1-score: 0.695
+🛠️ **What I Did**
 
-One of my biggest takeaways was that accuracy alone can be misleading, especially with imbalanced datasets. Choosing the right evaluation metrics and classification threshold makes a real difference.
+Throughout this project, I worked on the complete Machine Learning workflow:
 
-**The application provides actionable recommendations:**
-- No Action
-- Show a Coupon
-- Offer a Chat Assistant
+1. **Data Exploration & Analysis (EDA):** Explored the dataset, understood feature distributions, and investigated patterns related to purchasing behavior.
 
-🔗 **Try the Live App:**  
+2. **Data Preprocessing:** Prepared the data and handled duplicates and categorical features.
+
+3. **Feature Engineering:** Created additional features to capture browsing behavior more effectively.
+
+4. **Model Training & Evaluation:** Trained, tuned, and compared three Machine Learning models:
+   - Logistic Regression
+   - Random Forest
+   - Gradient Boosting
+
+5. **Model Optimization:** Used appropriate evaluation metrics and selected a classification threshold to improve the model's ability to identify potential buyers.
+
+6. **Deployment:** Built an interactive web application using Streamlit and deployed it online.
+
+📊 **Results**
+
+After comparing the models, Gradient Boosting achieved the best overall performance:
+
+- ROC-AUC: **0.939**
+- PR-AUC: **0.757**
+- Precision: **0.681**
+- Recall: **0.709**
+- F1-score: **0.695**
+
+💡 **What Makes This Project Interesting?**
+
+The application doesn't just predict whether a visitor will purchase. It also provides an actionable recommendation based on the predicted purchase probability:
+
+- **No Action:** For visitors likely to purchase without additional intervention.
+- **Show a Coupon:** For visitors who may need an incentive.
+- **Offer a Chat Assistant:** For visitors who may need help during their browsing journey.
+
+This project helped me understand how Machine Learning can go beyond predictions and support practical business decisions.
+
+🔗 **Try the Live Application:**
 https://purchase-intent-app-mvneznprlredwp4ytz7dtd.streamlit.app/
 
-💻 **Explore the GitHub Repository:**  
+💻 **Explore the Source Code on GitHub:**
 https://github.com/zeinab-2006-lab/purchase-intent-app
 
-This project was a great opportunity to apply Machine Learning concepts to a practical business problem and gain hands-on experience in model development and deployment.
+I'm grateful for the opportunity to apply what I've learned and turn it into a complete, deployed project.
 
-#MachineLearning #DataScience #Python #ScikitLearn #Streamlit #Ecommerce #ArtificialIntelligence #NextGenInstitute
+Looking forward to learning more and building more projects! 🚀
+
+#MachineLearning #DataScience #Python #ScikitLearn #Streamlit #DataAnalytics #Ecommerce #ArtificialIntelligence #NextGenInstitute
