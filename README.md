@@ -99,7 +99,7 @@ streamlit run app.py
 | `app.py` | Streamlit web application |
 | `models/` | Saved pipeline and metadata used by the app |
 | `requirements.txt` | Library versions used for training |
-
+| `Will This Visitor Buy Final Project..pptx` | Final project presentation |
 ## Dataset & Credits
 
 Dataset: C. Okan Sakar & Yomi Kastro, **Online Shoppers Purchasing Intention Dataset**, UCI Machine Learning Repository.
