@@ -1,23 +1,41 @@
-# LinkedIn post (draft — replace every [X] with a number from YOUR notebook)
+🚀 **My Machine Learning Project: Will This Visitor Buy?**
 
-Most visitors to an online store leave without buying — and the store usually finds out too late.
+Most online shopping visitors leave without making a purchase. But what if we could predict their purchase intention and help businesses make smarter decisions?
 
-In my NextGen Institute ML internship, our team built an app that scores a live browsing session and tells the website what to do: nothing (they'll buy anyway), show a coupon (they're undecided), or offer a chat assistant (they're lost).
+I'm excited to share my individual Machine Learning final project, **"Will This Visitor Buy? – Purchase Intent Prediction,"** developed as part of my Machine Learning course at NextGen Institute.
 
-• Trained and tuned [N] models on [N] real shopping sessions
-• Best model: [model name] — ROC-AUC [X], catching [X]% of real buyers
-• The biggest lesson: accuracy was misleading. A model that always says "no purchase" is [X]% accurate and completely useless — recall and precision at the right threshold are what the business needs
+The project uses the Online Shoppers Purchasing Intention dataset to predict whether a website visitor is likely to make a purchase based on their browsing session behavior.
 
-Try the live app: [link]
-Code: [GitHub link]
+**What I worked on:**
+- Explored and analyzed 12,330 shopping sessions.
+- Built a preprocessing and feature engineering pipeline.
+- Trained and tuned 3 Machine Learning models.
+- Evaluated model performance using ROC-AUC, PR-AUC, Precision, Recall, and F1-score.
+- Developed an interactive web application using Streamlit.
 
-Thanks to [teammates' names] and NextGen Institute 🙌
+**Model Results:**
 
-#MachineLearning #DataScience #Ecommerce #Streamlit #NextGenInstitute
+🏆 Best Model: Gradient Boosting
 
----
+- ROC-AUC: 0.939
+- PR-AUC: 0.757
+- Precision: 0.681
+- Recall: 0.709
+- F1-score: 0.695
 
-**Before you post**
-- Record a 30–60 second screen video: open the app → pick the "Deep browsing" example → Predict → show the suggested action → change to "Quick look, about to leave" → Predict.
-- Tag your teammates and NextGen Institute.
-- Every number must come from your own results.
+One of my biggest takeaways was that accuracy alone can be misleading, especially with imbalanced datasets. Choosing the right evaluation metrics and classification threshold makes a real difference.
+
+**The application provides actionable recommendations:**
+- No Action
+- Show a Coupon
+- Offer a Chat Assistant
+
+🔗 **Try the Live App:**  
+https://purchase-intent-app-mvneznprlredwp4ytz7dtd.streamlit.app/
+
+💻 **Explore the GitHub Repository:**  
+https://github.com/zeinab-2006-lab/purchase-intent-app
+
+This project was a great opportunity to apply Machine Learning concepts to a practical business problem and gain hands-on experience in model development and deployment.
+
+#MachineLearning #DataScience #Python #ScikitLearn #Streamlit #Ecommerce #ArtificialIntelligence #NextGenInstitute
